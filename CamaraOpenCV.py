@@ -14,8 +14,10 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT,1440) # alto
 
 # Tomar una imagen
 ret, frame = cap.read()
+
 # Guardamos la imagen en un archivo
 cv2.imwrite('/Users/lisandro/rostro.jpg',frame)
+
 #Liberamos la cámara
 cap.release()
 
